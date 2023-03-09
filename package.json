@@ -1,0 +1,16 @@
+{
+    "name": "streaming-assistant-configurator",
+    "version": "1.0.0",
+    "description": "Configuration tool for Streaming Assistant (for Pico 4)",
+    "main": "index.js",
+    "dependencies": {
+        "chalk": "^4.1.1",
+        "ini": "^2.0.0",
+        "readline": "^1.3.0"
+    },
+    "scripts": {
+        "build": "pkg index.js -t node18-win-x64 --out-path dist"
+    },
+    "author": "Migu",
+    "license": "MIT"
+}
