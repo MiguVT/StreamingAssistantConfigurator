@@ -2,6 +2,8 @@
 
 The Streaming Assistant Configurator is a third-party application that allows you to configure the settings of the Streaming Assistant app for "Pico 4" and improve the quality of your game streaming experience. With this application, you can adjust parameters such as bitrate, sharpness, brightness, saturation, and gamma to enhance the visual quality of your streamed games.
 
+**Please note:** The default values suggested by the application are the recommended values for optimal performance, and may differ from the default values of the Streaming Assistant app.
+
 ### How to use
 
 1. Make sure you have the Streaming Assistant app installed on your PC for "Pico 4".
