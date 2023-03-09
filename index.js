@@ -55,8 +55,9 @@
                                 rl.question(chalk.yellow('🔧 Enter the gamma value (default 1.1): '), (gamma) => {
                                     config.PICTURE.gamma = validateNumberInput(gamma, '1.1');
 
-                                    rl.question(chalk.yellow('🔧 Enter the eyeWidth value (default 3072): '), (eyeWidth) => {
-                                        config.session.eyeWidth = validateNumberInput(eyeWidth, '3072');
+                                    rl.question(chalk.yellow('🔧 Enter the eye resolution (default 2160): '), (eyeWidth) => {
+                                        config.session.eyeWidth = validateNumberInput(eyeWidth, '2160');
+                                        config.session.eyeHeight = validateNumberInput(eyeWidth, '2160');
 
                                         rl.question(chalk.yellow('🔧 Enter the fov value (default 105): '), (fov) => {
                                             config.session.fov = validateNumberInput(fov, '105');
