@@ -7,7 +7,7 @@
 
 
     const run = async () => {
-        console.log(chalk.yellow('⚠️ This application is not associated with Pic 4 or any other related application. It is a third-party application. ⚠️'));
+        console.log(chalk.yellow('⚠️ This application is not associated with Pico 4 or any other related application. It is a third-party application. ⚠️'));
         console.log(chalk.blue('🎥 Streaming Assistant Configurator - Made by Migu 🎬'));
 
         let isAdmin = false;
